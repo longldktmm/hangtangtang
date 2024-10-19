@@ -1,5 +1,5 @@
 onload = () => {
-      const titles = ("   Happy Minh Hang'sday 20😽-10😽").split('')
+      const titles = ("   Chúc mừng Hằng xinh gái cute siêu giỏi 20😽-10😽").split('')
       const titleElement = document.getElementsByClassName('title');
       let index = 0;
       console.log("loaded")
