@@ -3,7 +3,7 @@ onload = () => {
       document.body.classList.remove("not-loaded");
   
       const titles = ('Happy Minh Hang"s day 20😽-10😽').split('')
-      const titleElement = document.getElementById('title');
+      const titleElement = document.getElementsByClassName('title');
       let index = 0;
   
       function appendTitle() {
