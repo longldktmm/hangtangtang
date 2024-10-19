@@ -7,7 +7,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 70px;
+  text-shadow: 0px 0px 20px white;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
 body{
     background-image: linear-gradient(to top,#010329,#000005);
     min-height: 100vh;
