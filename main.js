@@ -6,7 +6,7 @@ onload = () => {
       function appendTitle() {
         if (index < titles.length) {
             console.log(index)
-            document.querySelector("body > h1").innerText = (document.querySelector("body > h1").innerText + titles[index]);
+            document.querySelector("body > h1").innerHTML  = (document.querySelector("body > h1").innerHTML  + titles[index]);
             index++;
             setTimeout(appendTitle, 300); // 1000ms delay
         }
